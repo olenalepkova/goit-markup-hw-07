@@ -150,7 +150,7 @@ address {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 24px;
+    gap: 16px;
 }
 
 .social-item {
@@ -325,10 +325,10 @@ address {
 .menu-open {
     width: 32px;
     height: 22px;
+    stroke: black;
 }
 
 .button-menu-hamburger {
-    line-height: 0;
     background-color: transparent;
     padding: 0;
 }
@@ -376,7 +376,6 @@ address {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        margin-bottom: 40px;
     }
 
     .address-list-mobile {
@@ -412,7 +411,7 @@ address {
 
     .nav-item-mobile {
         font-size: 8.41vw;
-        margin-bottom: 9.35vw;
+        line-height: 2.22;
     }
 
     .address-list-mobile {
@@ -470,9 +469,9 @@ address {
 @media screen and (min-width: 768px) {
     .container.footer-flex {
         flex-direction: row;
-        justify-content: center;
         flex-wrap: wrap;
         gap: 72px 24px;
+        justify-content: center;
     }
 }
 
@@ -675,7 +674,7 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url('../images/people-office@2x.jpg');
+            url('../images/people-office.jpg');
     }
 }
 
